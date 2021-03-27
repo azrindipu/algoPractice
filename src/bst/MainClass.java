@@ -15,6 +15,7 @@ public class MainClass {
         root = btree.insertItem(root, 12);
         root = btree.insertItem(root, 11);
         root = btree.insertItem(root, 14);
+        root = btree.insertItem(root, 14);
 
         //pre order traversal
         btree.preOrderTraversal(root);
@@ -35,6 +36,6 @@ public class MainClass {
 
         //get the max value of btree
         btree.getMaxValue(root);
-        
+
     }
 }

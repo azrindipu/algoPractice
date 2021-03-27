@@ -1,7 +1,5 @@
 package bst;
 
-import java.util.List;
-
 public class Btree {
 
     private Node createNewNode(int data){
@@ -16,6 +14,7 @@ public class Btree {
             root.setRightNode(this.insertItem(root.getRightNode(), data));
         }
         else{
+            //right bias binary search tree
             root.setLeftNode(this.insertItem(root.getLeftNode(), data));
         }
         return root;

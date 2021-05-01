@@ -1,4 +1,4 @@
-package design_pattern.strategy_pattern;
+package design_pattern.strategy_pattern.strategy;
 
 import design_pattern.strategy_pattern.strategy.catagoryInterface.IQuack;
 import design_pattern.strategy_pattern.strategy.catagoryInterface.Idisplay;

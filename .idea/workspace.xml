@@ -4,19 +4,15 @@
     <bookmark url="file://$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/CheckPermutation.java" line="11" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fca1941f-53d9-4e56-889f-975dd69d5d3c" name="Default" comment="Added strategy design pattern">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/MainClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/DisplayStrategy01.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/DisplayStrategy02.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/FlyStrategyQuick.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/FlyStrategySlow.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategyLoud.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategySweet.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/IQuack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/Idisplay.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/Ifly.java" />
+    <list default="true" id="fca1941f-53d9-4e56-889f-975dd69d5d3c" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/MainClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/Iobserverble.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/ObserverbleImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/Iobserver.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/ObserverImpl.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/MainClass.java" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/MainClass.java" />
+      <change beforePath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/Duck.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -33,31 +29,49 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Duck.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java">
+      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/MainClass.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+            <state relative-caret-position="374">
+              <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObserverbleImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/ObserverbleImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="228">
+              <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#533#534#0" expanded="true" />
-                <element signature="e#571#572#0" expanded="true" />
-                <element signature="e#595#596#0" expanded="true" />
-                <element signature="e#625#626#0" expanded="true" />
-                <element signature="e#651#652#0" expanded="true" />
-                <element signature="e#685#686#0" expanded="true" />
+                <element signature="e#1546#1547#0" expanded="true" />
+                <element signature="e#1573#1574#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainClass.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/design_pattern/MainClass.java">
+      <file leaf-file-name="Iobserver.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/Iobserver.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="264">
-              <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+            <state relative-caret-position="66">
+              <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ObserverImpl.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/ObserverImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="250">
+              <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#453#454#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#525#526#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -89,9 +103,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/linkedList/Node.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/MainClass.java" />
-        <option value="$PROJECT_DIR$/src/linkedList/CustomLinkedList.java" />
         <option value="$PROJECT_DIR$/src/bst/Node.java" />
         <option value="$PROJECT_DIR$/src/recursion/Factorial.java" />
         <option value="$PROJECT_DIR$/src/recursion/SumOfConsicutiveNumbers.java" />
@@ -133,10 +144,16 @@
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/IQuack.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategyLoud.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategySweet.java" />
-        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/Duck.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java" />
-        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/MainClass.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/Duck.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/MainClass.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observers/Iobserver.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/Iobserverble.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observers/ObserverImpl.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/ObserverImpl.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/ObserverbleImpl.java" />
+        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/MainClass.java" />
       </list>
     </option>
   </component>
@@ -191,28 +208,30 @@
               <item name="AlgoPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AlgoPractice" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AlgoPractice" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgoPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="design_pattern" type="462c0819:PsiDirectoryNode" />
               <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
-              <item name="strategy" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AlgoPractice" type="b2602c69:ProjectViewProjectNode" />
               <item name="AlgoPractice" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="djkstra" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="observerble" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AlgoPractice" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AlgoPractice" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="strategy_pattern" type="462c0819:PsiDirectoryNode" />
+              <item name="observer" type="462c0819:PsiDirectoryNode" />
+              <item name="observers" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -234,11 +253,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="design_pattern.strategy_pattern.observer" />
       <recent name="design_pattern" />
       <recent name="hastable" />
       <recent name="test" />
       <recent name="usps" />
-      <recent name="djkstra" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -260,6 +279,25 @@
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="design_pattern.strategy_pattern.observer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="design_pattern.strategy_pattern.observer.MainClass" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="AlgoPractice" />
+      <envs />
     </configuration>
     <configuration name="MainClass (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -440,10 +478,10 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Application.MainClass (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Application.MainClass (2)" />
-        <item index="2" class="java.lang.String" itemvalue="Application.MainClass" />
-        <item index="3" class="java.lang.String" itemvalue="Application.MainClass (5)" />
-        <item index="4" class="java.lang.String" itemvalue="Application.MainClass (4)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.MainClass (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.MainClass (2)" />
+        <item index="3" class="java.lang.String" itemvalue="Application.MainClass" />
+        <item index="4" class="java.lang.String" itemvalue="Application.MainClass (5)" />
       </list>
     </recent_temporary>
   </component>
@@ -482,7 +520,7 @@
       <workItem from="1619771202670" duration="4731000" />
       <workItem from="1619796683977" duration="6109000" />
       <workItem from="1619849034600" duration="599000" />
-      <workItem from="1619853712309" duration="3271000" />
+      <workItem from="1619853712309" duration="6560000" />
     </task>
     <task id="LOCAL-00001" summary="Basic link list">
       <created>1616739522100</created>
@@ -533,11 +571,18 @@
       <option name="project" value="LOCAL" />
       <updated>1619856359494</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Added strategy design pattern">
+      <created>1619857273575</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619857273575</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73479000" />
+    <option name="totallyTimeSpent" value="76768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -655,42 +700,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/bst/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="25" lean-forward="true" selection-start-line="12" selection-start-column="25" selection-end-line="12" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/CustomLinkedList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="28" lean-forward="false" selection-start-line="47" selection-start-column="28" selection-end-line="47" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/Node.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="6" column="26" lean-forward="false" selection-start-line="6" selection-start-column="26" selection-end-line="6" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/linkedList/MainClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/linkedList/CustomLinkedList.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1034">
@@ -1043,29 +1052,77 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java">
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/Duck.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="132">
           <caret line="6" column="13" lean-forward="false" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#533#534#0" expanded="true" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#595#596#0" expanded="true" />
-            <element signature="e#625#626#0" expanded="true" />
-            <element signature="e#651#652#0" expanded="true" />
-            <element signature="e#685#686#0" expanded="true" />
+            <element signature="e#542#543#0" expanded="true" />
+            <element signature="e#580#581#0" expanded="true" />
+            <element signature="e#604#605#0" expanded="true" />
+            <element signature="e#634#635#0" expanded="true" />
+            <element signature="e#660#661#0" expanded="true" />
+            <element signature="e#694#695#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/design_pattern/MainClass.java">
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/MainClass.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="264">
-          <caret line="12" column="51" lean-forward="true" selection-start-line="12" selection-start-column="51" selection-end-line="12" selection-end-column="51" />
+        <state relative-caret-position="186">
+          <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/Iobserverble.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="27" lean-forward="false" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/Iobserver.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="66">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observers/ObserverImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="14" column="29" lean-forward="false" selection-start-line="14" selection-start-column="29" selection-end-line="14" selection-end-column="29" />
+          <folding>
+            <element signature="e#453#454#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#525#526#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/observerble/ObserverbleImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="57" column="35" lean-forward="true" selection-start-line="57" selection-start-column="35" selection-end-line="57" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1546#1547#0" expanded="true" />
+            <element signature="e#1573#1574#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/design_pattern/strategy_pattern/observer/MainClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="24" column="36" lean-forward="true" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+          <folding />
         </state>
       </provider>
     </entry>

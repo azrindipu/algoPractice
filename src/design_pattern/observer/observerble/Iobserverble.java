@@ -1,6 +1,6 @@
-package design_pattern.strategy_pattern.observer.observerble;
+package design_pattern.observer.observerble;
 
-import design_pattern.strategy_pattern.observer.observers.Iobserver;
+import design_pattern.observer.observers.Iobserver;
 
 public interface Iobserverble {
     void add(Iobserver iobserver) throws Exception;

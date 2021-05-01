@@ -1,7 +1,6 @@
-package design_pattern.strategy_pattern.observer.observerble;
+package design_pattern.observer.observerble;
 
-import design_pattern.strategy_pattern.observer.observers.Iobserver;
-import design_pattern.strategy_pattern.observer.observers.ObserverImpl;
+import design_pattern.observer.observers.Iobserver;
 
 import java.util.ArrayList;
 import java.util.List;

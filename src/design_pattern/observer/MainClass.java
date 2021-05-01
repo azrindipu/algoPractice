@@ -1,14 +1,9 @@
-package design_pattern.strategy_pattern.observer;
+package design_pattern.observer;
 
 
-import design_pattern.strategy_pattern.observer.observerble.ObserverbleImpl;
-import design_pattern.strategy_pattern.observer.observers.Iobserver;
-import design_pattern.strategy_pattern.observer.observers.ObserverImpl;
-import design_pattern.strategy_pattern.strategy.Duck;
-import design_pattern.strategy_pattern.strategy.catagoryImpl.*;
-import design_pattern.strategy_pattern.strategy.catagoryInterface.IQuack;
-import design_pattern.strategy_pattern.strategy.catagoryInterface.Idisplay;
-import design_pattern.strategy_pattern.strategy.catagoryInterface.Ifly;
+import design_pattern.observer.observerble.ObserverbleImpl;
+import design_pattern.observer.observers.Iobserver;
+import design_pattern.observer.observers.ObserverImpl;
 
 public class MainClass {
     public static void main(String[] args){

@@ -1,6 +1,6 @@
-package design_pattern.strategy_pattern.strategy.catagoryImpl;
+package design_pattern.strategy.catagoryImpl;
 
-import design_pattern.strategy_pattern.strategy.catagoryInterface.IQuack;
+import design_pattern.strategy.catagoryInterface.IQuack;
 
 public class QuackStrategySweet implements IQuack {
     @Override

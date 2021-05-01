@@ -1,6 +1,6 @@
-package design_pattern.strategy_pattern.observer.observers;
+package design_pattern.observer.observers;
 
-import design_pattern.strategy_pattern.observer.observerble.ObserverbleImpl;
+import design_pattern.observer.observerble.ObserverbleImpl;
 
 public class ObserverImpl implements Iobserver {
 

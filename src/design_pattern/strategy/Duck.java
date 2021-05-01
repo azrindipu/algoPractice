@@ -5,6 +5,7 @@ import design_pattern.strategy.catagoryInterface.Idisplay;
 import design_pattern.strategy.catagoryInterface.Ifly;
 
 public class Duck {
+
     private Idisplay display;
     private Ifly fly;
     private IQuack quack;

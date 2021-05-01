@@ -4,12 +4,18 @@
     <bookmark url="file://$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/CheckPermutation.java" line="11" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fca1941f-53d9-4e56-889f-975dd69d5d3c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/MainClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/CheckPermutation.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/MainClass.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/UnicChar.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/arrays_and_string/Urlify.java" />
+    <list default="true" id="fca1941f-53d9-4e56-889f-975dd69d5d3c" name="Default" comment="Added strategy design pattern">
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/MainClass.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/Duck.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/DisplayStrategy01.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/DisplayStrategy02.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/FlyStrategyQuick.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/FlyStrategySlow.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategyLoud.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryImpl/QuackStrategySweet.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/IQuack.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/Idisplay.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/catagoryInterface/Ifly.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -476,7 +482,7 @@
       <workItem from="1619771202670" duration="4731000" />
       <workItem from="1619796683977" duration="6109000" />
       <workItem from="1619849034600" duration="599000" />
-      <workItem from="1619853712309" duration="2632000" />
+      <workItem from="1619853712309" duration="3271000" />
     </task>
     <task id="LOCAL-00001" summary="Basic link list">
       <created>1616739522100</created>
@@ -520,15 +526,21 @@
       <option name="project" value="LOCAL" />
       <updated>1619775707673</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added strategy design pattern">
+      <created>1619856359494</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1619856359494</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="72840000" />
+    <option name="totallyTimeSpent" value="73479000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -540,7 +552,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982844" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3874459" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33982685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33982685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.22080797" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -577,7 +589,8 @@
     <MESSAGE value="dummy commit" />
     <MESSAGE value="Dijksta not completed yet" />
     <MESSAGE value="Added hash unction" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added hash unction" />
+    <MESSAGE value="Added strategy design pattern" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added strategy design pattern" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

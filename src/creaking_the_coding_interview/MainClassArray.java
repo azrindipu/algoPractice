@@ -2,7 +2,7 @@ package creaking_the_coding_interview;
 
 import creaking_the_coding_interview.arrays_and_string.*;
 
-public class MainClass {
+public class MainClassArray {
     public static void main(String[] args){
 
         /*Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you

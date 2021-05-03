@@ -1,6 +1,6 @@
 package creaking_the_coding_interview.linklist;
 
-public class Test {
+public class CustomLinkList {
 
     public Node insertLastData(Node head, int data){
         Node node = new Node(data);

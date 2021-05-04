@@ -1,9 +1,6 @@
 package creaking_the_coding_interview;
 
-import creaking_the_coding_interview.linklist.Node;
-import creaking_the_coding_interview.linklist.CustomLinkList;
-import creaking_the_coding_interview.linklist.RemoveDups;
-import creaking_the_coding_interview.linklist.ReturnKthElement;
+import creaking_the_coding_interview.linklist.*;
 
 public class MainClassLinkList {
     public static void main(String[] args){
@@ -41,5 +38,17 @@ public class MainClassLinkList {
         System.out.println("Kth element: "+k.data);
         k= returnKthElement.getKthElementNaive(head, 3);
         System.out.println("Kth element: "+k.data);
+
+        /*Delete Middle Node: Implement an algorithm to delete a node in the middle (i.e., any node but
+        the first and last node, not necessarily the exact middle) of a singly linked list, given only access to
+        that node.
+        EXAMPLE
+        lnput:the node c from the linked list a->b->c->d->e->f
+        Result: nothing is returned, but the new linked list looks like a ->b->d- >e- >f*/
+
+        DeleteMiddleNode deleteMiddleNode = new DeleteMiddleNode(customLinkList);
+        Node temNode = head.next;
+        deleteMiddleNode.deleteGivenNode(temNode);
+        customLinkList.printList(head);
     }
 }

@@ -28,4 +28,21 @@ public class RemoveDups {
             temp=temp.next;
         }
     }
+
+    public void removeDuplicateInPlace(Node head){
+        if(head == null) return;
+        Node tempHead = head;
+        while (tempHead != null){
+            Node runner = tempHead;
+            while (runner.next != null){
+                if(runner.next.data == tempHead.data){
+                    runner.next=runner.next.next;
+                }
+                else{
+                    runner=runner.next;
+                }
+            }
+            tempHead=tempHead.next;
+        }
+    }
 }

@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fca1941f-53d9-4e56-889f-975dd69d5d3c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/DeleteMiddleNode.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/Partition.java" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/src/creaking_the_coding_interview/MainClassLinkList.java" afterPath="$PROJECT_DIR$/src/creaking_the_coding_interview/MainClassLinkList.java" />
     </list>
@@ -24,12 +24,25 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="MainClassLinkList.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="MainClassLinkList.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/creaking_the_coding_interview/MainClassLinkList.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="528">
-              <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+            <state relative-caret-position="344">
+              <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Partition.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/Partition.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="58">
+              <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+              <folding>
+                <element signature="e#177#178#0" expanded="true" />
+                <element signature="e#227#228#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -86,7 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/Isort.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/BubbleSortStrategy.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/MergeSortStrategy.java" />
         <option value="$PROJECT_DIR$/src/design_pattern/strategy_pattern/strategy/Isort.java" />
@@ -137,6 +149,7 @@
         <option value="$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/ReturnKthElement.java" />
         <option value="$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/DeleteMiddleNode.java" />
         <option value="$PROJECT_DIR$/src/creaking_the_coding_interview/MainClassLinkList.java" />
+        <option value="$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/Partition.java" />
       </list>
     </option>
   </component>
@@ -512,7 +525,7 @@
       <workItem from="1619890027575" duration="5842000" />
       <workItem from="1620026937194" duration="25000" />
       <workItem from="1620040281008" duration="6437000" />
-      <workItem from="1620149073821" duration="4090000" />
+      <workItem from="1620149073821" duration="5763000" />
     </task>
     <task id="LOCAL-00001" summary="Basic link list">
       <created>1616739522100</created>
@@ -612,11 +625,18 @@
       <option name="project" value="LOCAL" />
       <updated>1620153540670</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="Added delete given node">
+      <created>1620153931101</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1620153931101</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="93719000" />
+    <option name="totallyTimeSpent" value="95392000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1987" y="25" width="1853" height="1055" extended-state="6" />
@@ -630,7 +650,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32982844" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.38636363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38636363" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33982685" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -676,7 +696,8 @@
     <MESSAGE value="Start link list" />
     <MESSAGE value="Remove dups" />
     <MESSAGE value="Added kth element" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added kth element" />
+    <MESSAGE value="Added delete given node" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added delete given node" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -741,13 +762,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar:///usr/lib/jvm/java-1.8.0-openjdk-amd64/jre/lib/rt.jar!/java/util/List.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="61" column="9" lean-forward="false" selection-start-line="61" selection-start-column="9" selection-end-line="61" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/djkstra/Node.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1430">
@@ -1092,9 +1106,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/creaking_the_coding_interview/MainClassLinkList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="528">
-          <caret line="51" column="39" lean-forward="false" selection-start-line="51" selection-start-column="39" selection-end-line="51" selection-end-column="39" />
+        <state relative-caret-position="344">
+          <caret line="63" column="37" lean-forward="false" selection-start-line="63" selection-start-column="37" selection-end-line="63" selection-end-column="37" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/creaking_the_coding_interview/linklist/Partition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="58">
+          <caret line="11" column="24" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="24" />
+          <folding>
+            <element signature="e#177#178#0" expanded="true" />
+            <element signature="e#227#228#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

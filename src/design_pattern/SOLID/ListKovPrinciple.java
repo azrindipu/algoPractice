@@ -2,7 +2,6 @@ package design_pattern.SOLID;
 
 import design_pattern.SOLID.liskov.IEmployee;
 import design_pattern.SOLID.liskov.RegularEmployee;
-import design_pattern.SOLID.liskov.TemporaryEmployee;
 import design_pattern.SOLID.liskov.maintainingliskov.*;
 
 import java.util.ArrayList;

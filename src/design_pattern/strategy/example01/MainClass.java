@@ -1,10 +1,10 @@
-package design_pattern.strategy;
+package design_pattern.strategy.example01;
 
 
-import design_pattern.strategy.catagoryImpl.*;
-import design_pattern.strategy.catagoryInterface.IQuack;
-import design_pattern.strategy.catagoryInterface.Idisplay;
-import design_pattern.strategy.catagoryInterface.Ifly;
+import design_pattern.strategy.example01.catagoryImpl.*;
+import design_pattern.strategy.example01.catagoryInterface.IQuack;
+import design_pattern.strategy.example01.catagoryInterface.Idisplay;
+import design_pattern.strategy.example01.catagoryInterface.Ifly;
 
 public class MainClass {
     public static void main(String[] args){
